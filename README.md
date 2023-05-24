@@ -17,7 +17,7 @@ Enfin il faut lancer la commande `yarn dev` qui s'occupera de lancer tout les sc
 - Possibilité de supprimer une alerte
 - Tri des alarmes par heure
 - Notification lors de l'ajout d'une alarme
-- Déclenchement de l'alarme et d'une notification lors l'heure enregistre correspond à l'heure actuelle
+- Déclenchement de l'alarme et d'une notification lors de l'alarme
 
 ## Évolution à implémenter 🧩
 
@@ -29,8 +29,9 @@ Enfin il faut lancer la commande `yarn dev` qui s'occupera de lancer tout les sc
 
 ## Stack Technique 💻
 
-- ReactJS (Front-end)
+- ReactJS (Front-end) 
 - ElectronJS (Desktop App)
 - Typescript
 - Prisma ORM
-- SQLite
+- SQLite (Database)
+- Yarn (Packaging)
