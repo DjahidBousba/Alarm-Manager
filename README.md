@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Alarm Manager ⌚️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Lancement du projet 🚀
 
-## Available Scripts
+### `yarn dev`
 
-In the project directory, you can run:
+Pour lancer le projet il faut tout d'abord installer les dépendances nécessaires avec la commande `yarn`.
+Par la suite il faut utiliser la commande `npx prisma generate` pour pouvoir mettre à jour le schéma de notre base de donnée contenu dans le fichier `db.sqlite`.
+Enfin il faut lancer la commande `yarn dev` qui s'occupera de lancer tout les scripts nécessaires au démarrage du projet.
 
-### `npm start`
+## Fonctionnalité du projet 🎯
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Heure digitale
+- Date du jour
+- Possiblité d'ajouter une alarme avec l'heure et la minute
+- Possibilité d'activer ou de désactiver l'alarme
+- Possibilité de supprimer une alerte
+- Tri des alarmes par heure
+- Notification lors de l'ajout d'une alarme
+- Déclenchement de l'alarme et d'une notification lors l'heure enregistre correspond à l'heure actuelle
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Évolution à implémenter 🧩
 
-### `npm test`
+- Traduction de l'app
+- Timer
+- Chronomètre
+- Heure dans les différents pays du monde
+- Titre aux alarmes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Stack Technique 💻
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ReactJS (Front-end)
+- ElectronJS (Desktop App)
+- Typescript
+- Prisma ORM
+- SQLite
